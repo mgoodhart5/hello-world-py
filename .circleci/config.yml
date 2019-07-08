@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/python-attempt
     docker:
-      - image: circleci/python:2.7.10
+      - image: circleci/python:2.7
     steps:
       - checkout
       - run: python app.py
