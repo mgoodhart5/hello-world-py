@@ -7,4 +7,4 @@ jobs:
     steps:
       - checkout
       - run: sudo pip install flask
-      - run: python app.py
+      - run: echo "Lo hiciste!"
