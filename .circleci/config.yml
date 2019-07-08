@@ -6,4 +6,5 @@ jobs:
       - image: circleci/python:2.7
     steps:
       - checkout
+      - run: pip install flask
       - run: python app.py
